@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules/       # Exclude node_modules directory
+
+dist/               # Exclude dist directory
+dist-ssr/           # Exclude dist-ssr directory
+
+*.local             # Exclude files with .local extension
+
+# Editor directories and files
+.vscode/            # Exclude .vscode directory
+!.vscode/extensions.json  # Exclude all files in .vscode except extensions.json
+
+.idea/              # Exclude .idea directory
+
+.DS_Store           # Exclude .DS_Store file
+
+*.suo               # Exclude files with .suo extension
+*.ntvs*             # Exclude files with .ntvs extension
+*.njsproj           # Exclude files with .njsproj extension
+*.sln               # Exclude files with .sln extension
+*.sw?               # Exclude files with .sw extension followed by any character
